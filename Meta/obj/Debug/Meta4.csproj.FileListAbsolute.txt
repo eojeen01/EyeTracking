@@ -1,0 +1,10 @@
+C:\Users\eojee\source\repos\Meta4\Meta4\bin\Debug\Meta4.exe.config
+C:\Users\eojee\source\repos\Meta4\Meta4\bin\Debug\Meta4.exe
+C:\Users\eojee\source\repos\Meta4\Meta4\bin\Debug\Meta4.pdb
+C:\Users\eojee\source\repos\Meta4\Meta4\obj\Debug\Meta4.csproj.AssemblyReference.cache
+C:\Users\eojee\source\repos\Meta4\Meta4\obj\Debug\Meta4.Form1.resources
+C:\Users\eojee\source\repos\Meta4\Meta4\obj\Debug\Meta4.Properties.Resources.resources
+C:\Users\eojee\source\repos\Meta4\Meta4\obj\Debug\Meta4.csproj.GenerateResource.cache
+C:\Users\eojee\source\repos\Meta4\Meta4\obj\Debug\Meta4.csproj.CoreCompileInputs.cache
+C:\Users\eojee\source\repos\Meta4\Meta4\obj\Debug\Meta4.exe
+C:\Users\eojee\source\repos\Meta4\Meta4\obj\Debug\Meta4.pdb
