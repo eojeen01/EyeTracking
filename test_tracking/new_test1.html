@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<body>
+    <!-- xampp를 통해 apache 실행 후 로컬 서버로 열기 -->
+    <video id="webcam" width="400" height="300" autoplay></video>
+    <canvas id="overlay" width="400" height="300"></canvas>
+
+    <style>
+        #webcam, #overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+    <!-- 얼굴 주위에 모양 그리기 - 비디오 바로 위에 overlay 된 canvas -->
+    
+    <canvas id="eyes" width="50" height="25"></canvas>
+    <style>
+        #eyes {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    </style>
+    <!-- 눈 자르기 canvas -->
+
+    <!-- 눈 : 직사각형 터치포인트 23, 28, 24, 26으로 정의 -->
+    <!-- 자른 이미지를 사용하기 전에 캡처할 다른 canvas 필요 -->
+    <!-- x, y 좌표와 눈을 둘러싼 사각형의 너비, 높이를 반환함 -->
+
+    <iframe src="https://abcnews.go.com/" title="내용" width="100%" height="1000px"></iframe>
+    <!-- 웹 페이지 안에 다른 웹 페이지 넣기 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.5.0"></script>
+    <!-- jQuery, TensorFlow.js -->
+    <script src="clmtrackr.js"></script>
+    <!-- clmtrackr.js는 웹에서 다운 -->
+    <script src="main.js"></script>
+    
+</body>
+</html>
