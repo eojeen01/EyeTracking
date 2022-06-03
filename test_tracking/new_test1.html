@@ -28,6 +28,36 @@
     <!-- 자른 이미지를 사용하기 전에 캡처할 다른 canvas 필요 -->
     <!-- x, y 좌표와 눈을 둘러싼 사각형의 너비, 높이를 반환함 -->
 
+    <button id="train">Train!</button>
+    <style>
+        #train {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24pt;
+        }
+    </style>
+    <!-- 트리거 버튼 -->
+
+    <div id="target"></div>
+    <style>
+        #target {
+            background-color: lightgreen;
+            position: absolute;
+            border-radius: 50%;
+            height: 40px;
+            width: 40px;
+            transition: all 0.1s ease;
+            box-shadow: 0 0 20px 10px white;
+            border: 4px solid rgba(0,0,0,0.5);
+        }
+    </style>
+    <!-- 움직이는 동그라미 추가 -->
+    <!-- 구체를 움직이기 위해 현재 눈 이미지를 신경망에 주기적으로 전달, 어디를 보고있는지 물음
+         모델은 구가 이동해야하는 두 좌표로 응답 -->
+
+
     <iframe src="https://abcnews.go.com/" title="내용" width="100%" height="1000px"></iframe>
     <!-- 웹 페이지 안에 다른 웹 페이지 넣기 -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
